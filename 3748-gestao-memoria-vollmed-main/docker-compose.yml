@@ -1,0 +1,5 @@
+services:
+  vollmed:
+    build:
+      context: .
+    network_mode: host
